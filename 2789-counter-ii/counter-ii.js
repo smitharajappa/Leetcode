@@ -4,17 +4,7 @@
  */
 var createCounter = function(init) {
     let currentCounter = init
-    function increment() {
-        return ++currentCounter
-        }
-    function decrement() {
-        return --currentCounter
-        }
-    function reset() {
-        currentCounter = init
-        return currentCounter
-        }
-  return { increment, decrement, reset}
+  return { increment: () => ++currentCounter, decrement :() => --currentCounter, reset: () => currentCounter = init}
 };
 
 /**
