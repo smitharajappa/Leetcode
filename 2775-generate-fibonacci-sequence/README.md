@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/generate-fibonacci-sequence">2775. Generate Fibonacci Sequence</a></h2><h3>Easy</h3><hr><p>Write a generator function that returns a generator object which yields the&nbsp;<strong>fibonacci sequence</strong>.</p>
+<h2><a href="https://leetcode.com/problems/generate-fibonacci-sequence">Generate Fibonacci Sequence</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Write a generator function that returns a generator object which yields the&nbsp;<strong>fibonacci sequence</strong>.</p>
 
 <p>The&nbsp;<strong>fibonacci sequence</strong>&nbsp;is defined by the relation <code>X<sub>n</sub>&nbsp;= X<sub>n-1</sub>&nbsp;+ X<sub>n-2</sub></code>.</p>
 
